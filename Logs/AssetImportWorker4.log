@@ -1,0 +1,694 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'pt' Physical Memory: 16269 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrador" at "2026-03-27T14:44:26.3651494Z"
+Process architecture: x64
+Date: 2026-03-27T14:44:26Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Public/My project (1)
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+58767
+-licensingIpc
+LicenseClient-Administrador
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Public/My project (1)
+C:/Users/Public/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [21924]  Target information:
+
+Player connection [21924]  * "[IP] 192.168.1.124 [Port] 0 [Flags] 2 [Guid] 765362743 [EditorId] 765362743 [Version] 1048832 [Id] WindowsEditor(7,Gabriel-Orsatto) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21924]  * "[IP] 26.139.88.239 [Port] 0 [Flags] 2 [Guid] 765362743 [EditorId] 765362743 [Version] 1048832 [Id] WindowsEditor(7,Gabriel-Orsatto) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21924]  * "[IP] 172.25.32.1 [Port] 0 [Flags] 2 [Guid] 765362743 [EditorId] 765362743 [Version] 1048832 [Id] WindowsEditor(7,Gabriel-Orsatto) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21924] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21924] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 7.72 ms, found 3 plugins.
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Public/My project (1)/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 (ID=0x2582)
+    Vendor:          NVIDIA
+    VRAM:            8042 MB
+    App VRAM Budget: 7274 MB
+    Driver:          32.0.15.7700
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005569 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Administrador"
+[Licensing::IpcConnector] LicenseClient-Administrador channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrador-6000.4.0" at "2026-03-27T14:44:27.7853265Z"
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.495 seconds
+Domain Reload Profiling: 1147ms
+	BeginReloadAssembly (200ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (258ms)
+		LoadAssemblies (189ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (225ms)
+	FinalizeReload (499ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              b74c24874252486f99600ac7742a591d
+  Correlation Id:          0d9d95c8596b80aff4847b8e332f3184
+  External correlation Id: 1142573709021528983
+  Machine Id:              gTtab/XRgQWc8xckczYyk5vfbCQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrador-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 1.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrador-6000.4.0-notifications" at "2026-03-27T14:44:28.8893639Z"
+[Licensing::Module] Licensing Background thread has ended after 2.52s
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674181003784-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.969 seconds
+Domain Reload Profiling: 2062ms
+	BeginReloadAssembly (208ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (131ms)
+	LoadAllAssembliesAndSetupDomain (677ms)
+		LoadAssemblies (495ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (185ms)
+			BuildScriptInfoCaches (68ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (970ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (418ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (17ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 5.98 ms, found 3 plugins.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6691 unused Assets / (5.9 MB). Loaded Objects now: 7518.
+Memory consumption went from 160.4 MB to 154.4 MB.
+Total: 8.514000 ms (FindLiveObjects: 1.011700 ms CreateObjectMapping: 0.767200 ms MarkObjects: 4.412000 ms  DeleteObjects: 2.320500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7769.716498 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_Red.prefab
+  importAddress: Guid(2f6c7c11a938e5d47bbadf7b5d6b0423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_Red.prefab using Guid(2f6c7c11a938e5d47bbadf7b5d6b0423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3eabffbe56dcc23cad71014ac84ff493') in 3.6648618 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=91b5ff843ff36d7d20cf4f16d5b8c6ff DependenciesID=7c2604b2fcfb6dd59280b8a91afbabb9 StaticDependenciesID=d74a246ef4db3e16ed131ebfce832c4c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Flower_Purple.prefab
+  importAddress: Guid(be88ccc41855af94c9a8e89f1658ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Flower_Purple.prefab using Guid(be88ccc41855af94c9a8e89f1658ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7ba3a9a6c6d74c137e7f3645434caa1d') in 0.0411626 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f289be03dec469bccefaf7ad5ea3a79 DependenciesID=ca2d841f85a7294c6ad616ab40f89182 StaticDependenciesID=0597c82853517ec91d7e1d227340bee3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Flower_Yellow.prefab
+  importAddress: Guid(6cbc1a6123e1a5f42b589f21ac531d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Flower_Yellow.prefab using Guid(6cbc1a6123e1a5f42b589f21ac531d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e9bda7339013b5363e5ffcc4c8f6b6f8') in 0.0265484 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2001f82b5088887cee3aa0c53959e96b DependenciesID=e5a3470a606c337af83b9433e88e1dfb StaticDependenciesID=0f9e23c3b3e82fcfe5306fbe421b4eb8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Flower_Orange.prefab
+  importAddress: Guid(de0f9463ada7f44488e1849fdf5e1ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Flower_Orange.prefab using Guid(de0f9463ada7f44488e1849fdf5e1ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4b1f5b79674794c59a93b55020a3dac7') in 0.0156946 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a580e2a492c7cbbf2f7fde2cbd0a2934 DependenciesID=7fe2c6b7b8c530d9a008e0c8d8d013fb StaticDependenciesID=ab6782625efb9f57a61fce4b6a9bda48 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_Purple.prefab
+  importAddress: Guid(b7d873a1ec278b9448b81d80554e10ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_Purple.prefab using Guid(b7d873a1ec278b9448b81d80554e10ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd973883cd60a788769e98966b3a9dd27') in 0.021236 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de8c504ca6a0ae8a724772320b7d3a9d DependenciesID=c693bdd624ae8cb810e41717c30b0435 StaticDependenciesID=0405f877ce2c3eb934e72a77e2af6ba3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Grass_01.prefab
+  importAddress: Guid(954b7a467a8ef9341bd209a76d738cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Grass_01.prefab using Guid(954b7a467a8ef9341bd209a76d738cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'baafa407e63e62042a09a80b224026b7') in 0.0388511 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53c8eaa1696a345aee6ead1204d35c2f DependenciesID=8ba807938a80eb6abb73dc325df9e1b1 StaticDependenciesID=bd9ba75cfe381f5d37e736f78335cc01 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Grass_02.prefab
+  importAddress: Guid(28e7215f7f3d4af479961532235129be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Grass_02.prefab using Guid(28e7215f7f3d4af479961532235129be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ed474f4b9a7c2ffb6dde9a87785c864a') in 0.0305435 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f2d443f43f3712aac3117a91d92c053 DependenciesID=8d9d77977a7c688b15f9e15514b731b1 StaticDependenciesID=e3b448d4e305c612c628908e5f11dcb8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Plant_08.prefab
+  importAddress: Guid(732eb95a25040a3409bfb3f3b32a5907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Plant_08.prefab using Guid(732eb95a25040a3409bfb3f3b32a5907) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '478d8f15105d45caf61bd31e6bf9c0df') in 0.0263916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be3b2fea7dee1112a3763730245daeaa DependenciesID=194b8c3f54ed9bbe8c53eb414c0612db StaticDependenciesID=520c76ccfe68aa1aaaa123b45740ce0b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Plant_01.prefab
+  importAddress: Guid(bb5fbf3b8c105b94dbb8533f3182f6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Plant_01.prefab using Guid(bb5fbf3b8c105b94dbb8533f3182f6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '73459c6b01c42b285b0cd68ff666da15') in 0.0198767 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=149cb5f1df364342b468df6b43cd81cc DependenciesID=86ab771cd1f9b9a2bbb4b4d573cb3d92 StaticDependenciesID=60588c01b71142328c733746b0eef406 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Plant_07.prefab
+  importAddress: Guid(bcd74c95a30e57846b27035f1d1f10ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Plant_07.prefab using Guid(bcd74c95a30e57846b27035f1d1f10ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b369a83d7f034db7b739b45773a3d8f8') in 0.0210387 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8050146b9b628fd3e8d4e35c8fd52b11 DependenciesID=46d9cde5573ab820275afb5261cca777 StaticDependenciesID=e866446e0fc5ba7ac8d5542b53c63444 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_RedPink.prefab
+  importAddress: Guid(ffca0fd656ca87e4e9d6df80df47e038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_RedPink.prefab using Guid(ffca0fd656ca87e4e9d6df80df47e038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '95b2d59f79edbc94a71693762f7fd859') in 0.0367986 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf440da729b2dad238bbe8c9ee36fa58 DependenciesID=d69ceb4efade4377d2048c9db64ee3dd StaticDependenciesID=a1b490ada7c70924cd0319558b9ba913 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_PurpleRedPink.prefab
+  importAddress: Guid(01a163fcc067de347af07c22d9b5ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_PurpleRedPink.prefab using Guid(01a163fcc067de347af07c22d9b5ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e76edd418b551c1e68f1ca7fa8e7eb92') in 0.0458408 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a413a314d01fe44eba5e1af69c96e75 DependenciesID=2883ce80246458924f51f65bbc6e8a16 StaticDependenciesID=0a9086b12dceee90f0046aa484af2aed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Reeds_01.prefab
+  importAddress: Guid(9c62eefaf2b00cd439ca0cc107144301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Reeds_01.prefab using Guid(9c62eefaf2b00cd439ca0cc107144301) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '75999241dd75034fe4921156c1ebb38b') in 0.0229397 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8efc95ed6adb73edca9db7e4e5e2ecad DependenciesID=e5ed3203872fee3da795e96ffb26f200 StaticDependenciesID=480774c637a7dc1704df75c30c35aafa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_White.prefab
+  importAddress: Guid(b2ff11a6d1fff784cad98df357c7c6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_White.prefab using Guid(b2ff11a6d1fff784cad98df357c7c6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fc932745749c13924f00d0bb55a72dc8') in 0.0314518 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=03b36e829247013ee428886f04d920ec DependenciesID=2fd4eed9a59641741cd30ec703ad355a StaticDependenciesID=ace093271246f98c6f8918392d3c1338 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_Orange.prefab
+  importAddress: Guid(b00dca55598cb7d4a9317537cb0551f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_Orange.prefab using Guid(b00dca55598cb7d4a9317537cb0551f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c5316c67815ba1759d531bf6e120bd16') in 0.0274636 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=975300df72c41907b8d853948c706b75 DependenciesID=7749966aaa684b491cb128be2678f37f StaticDependenciesID=544dd2f2fb796c4047e65733726e56d1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Idyllic Fantasy Nature/Prefabs/Flower_White.prefab
+  importAddress: Guid(8c7bc13b48e07624cbeab19070eac416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Idyllic Fantasy Nature/Prefabs/Flower_White.prefab using Guid(8c7bc13b48e07624cbeab19070eac416) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '191962ccb1d4b6fbc7b14b046c6dff87') in 0.0225817 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d6b6670300dc4e7dbf92a8d7d2d9518 DependenciesID=813415258d773f9bc8fccf631fc9d6bb StaticDependenciesID=2bc55cd9b10347c80b97ba7f87180a89 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.842466 seconds.
+  path: Assets/Survivalist/Survivalist.unity
+  importAddress: Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Survivalist.unity using Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1ff53f2b34c30e4455fbd18ec94d5b31') in 0.0014565 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fed0059921f6c21d1995654d95a72e93 DependenciesID=7d7b61e70845d8b5b4ebbd801354780e StaticDependenciesID=c1c193759bb7245bf08d09e9bb55f79f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.245600 seconds.
+  path: Assets/Survivalist/Prefab
+  importAddress: Guid(d7df13d61df21d54f9a070127dcc38c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Prefab using Guid(d7df13d61df21d54f9a070127dcc38c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '309de775d1fad5f9ff06ae31bd1ff111') in 0.0022404 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=55c00a9a2bb5bb11efdb1454ed7af5ec DependenciesID=2026a791c7fc0531371d79cdf80d0d18 StaticDependenciesID=ae8b2d3e398f2601343daf1c94cd657b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Survivalist/Prefab/FPS_Survivalist (1).prefab
+  importAddress: Guid(8fc0faafcb8253844b019baf5e1f16c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Prefab/FPS_Survivalist (1).prefab using Guid(8fc0faafcb8253844b019baf5e1f16c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fc3f6cd447097b7957a71b414d73dd15') in 9.3317774 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=870048173404b407b5f78db512042432 DependenciesID=f09490b5f3fcda623058aa36efe668f4 StaticDependenciesID=eb13fb28169eab3a8f06757c859ba6f6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 251
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Survivalist/Prefab/PlayerArmature.prefab
+  importAddress: Guid(76b9d8179905d454e9bf6dcc847231ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Prefab/PlayerArmature.prefab using Guid(76b9d8179905d454e9bf6dcc847231ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3f6114ff2f47803654ccf8f9f95d0d2a') in 0.6652051 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=26e3d1d7c9dc0cfa5fe003113aa6c24c DependenciesID=bfb09ca5e480c6c5c46bafb1e0787a10 StaticDependenciesID=28f5c0f2dabc755b7d966134df18e96a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Survivalist/Prefab/Survivalist (4).prefab
+  importAddress: Guid(2fc773a5e63399340957bc7dcff6b22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Prefab/Survivalist (4).prefab using Guid(2fc773a5e63399340957bc7dcff6b22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cf5a28114ebabd1e03256c344632d3f7') in 0.5345936 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d48689cfeeea79f0c1155af5e27696f7 DependenciesID=fb2d24f69b175515c3d09f24266cb274 StaticDependenciesID=3f865e80e0e1dd3dc0f8fb36735992e3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 251
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Survivalist/Prefab/Survivalist (1).prefab
+  importAddress: Guid(29275473dc42c1a499187925872e54cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Prefab/Survivalist (1).prefab using Guid(29275473dc42c1a499187925872e54cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9947357f3965b737f46e73111e6d0cf1') in 0.5947038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8cf8eea5a4eb2247f3c158e2788ef378 DependenciesID=a02494fb29559df04bb574368b0382ee StaticDependenciesID=1f841f12765e4fe92664907483c4b527 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 251
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.390805 seconds.
+  path: Assets/Survivalist/Materials
+  importAddress: Guid(3232ae25a076c524693e04439575d1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials using Guid(3232ae25a076c524693e04439575d1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c99211f269acc3c152f2d61d4f8990e0') in 0.0012088 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12e44d45feb679c2681cfaa265c8fbce DependenciesID=e50d66f08404ef0ff0b7719418735c7c StaticDependenciesID=ce00d8b05c191237caeb54328b7cc183 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198294 seconds.
+  path: Assets/Survivalist/Materials/Backpack1_Skin1.mat
+  importAddress: Guid(bb22c5d48abf85d4f98617d056e1d110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials/Backpack1_Skin1.mat using Guid(bb22c5d48abf85d4f98617d056e1d110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ab08be578c426d7fb5376d9cc876caeb') in 0.1229586 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=21df4671d6c9b78183e56442e2967866 DependenciesID=4fe51733eb468a8fe059de8c9f66a3e8 StaticDependenciesID=63a5f08c3a2767ca66984903cca25bee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Survivalist/Materials/Cap1_Skin2.mat
+  importAddress: Guid(177b89c6830906448881f566d8143446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials/Cap1_Skin2.mat using Guid(177b89c6830906448881f566d8143446) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '13f5b1c979aa329f20b9c4070211f81c') in 0.0507529 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=03451c79e7e56a31d659012552a2db0c DependenciesID=581cd10ecfe744cabebaa743a05388d5 StaticDependenciesID=1aa2bfcbc8b2d39aa267df41d34b68dc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Survivalist/Materials/Pouches1_Skin1.mat
+  importAddress: Guid(66281e6f4c3b1b34d8046c9fdea8fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials/Pouches1_Skin1.mat using Guid(66281e6f4c3b1b34d8046c9fdea8fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cce0ed63abbb842f1ee7663b66eb3166') in 0.0515968 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eef4ebe6ae9735fab10a8d82c2770791 DependenciesID=4d0acd9078631fb7c2648de58bca9bb7 StaticDependenciesID=ce5dae463d3b01367ead033d8a86b6d7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Survivalist/Materials/Gloves1_Skin1.mat
+  importAddress: Guid(7e5e6c8eb72897145ac408f805ab3a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials/Gloves1_Skin1.mat using Guid(7e5e6c8eb72897145ac408f805ab3a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd46d8afade0ddc667d4b4916d780dcf5') in 0.0589162 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67bf09d63caa57a455c973f5904e9c4a DependenciesID=668cf031b3b90320fd45cfff39a4e7e5 StaticDependenciesID=a33af5b9a1685f1bb082a03e2cb6d9d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Survivalist/Materials/FPS_Hands1_Skin1.mat
+  importAddress: Guid(308bfb0f350b3eb4781240efb6c21c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials/FPS_Hands1_Skin1.mat using Guid(308bfb0f350b3eb4781240efb6c21c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a8c9c69748feb27e02d41b718727e3ae') in 0.0584116 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1da1e31d95c84a73e04c7c79d946a901 DependenciesID=a8945041e9b2f7bd92db3a2116eee0c0 StaticDependenciesID=37bd5b3ed22310aa8747b09e0ba72dd9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Survivalist/Materials/Gloves1_Skin2.mat
+  importAddress: Guid(953e54df3cf3ebd459b13ba48cac3a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials/Gloves1_Skin2.mat using Guid(953e54df3cf3ebd459b13ba48cac3a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f09bfdfbf06912d3993ead3a1eedcf53') in 0.0423201 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d115f9e155eff0090c90dc5a161624a DependenciesID=4eb50a5d7ee38641de8770966e607fde StaticDependenciesID=130fa729abc06bd2b492bab26cf95823 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Survivalist/Materials/Boots3_Skin3.mat
+  importAddress: Guid(a210e4596a34b764387336c54096ea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials/Boots3_Skin3.mat using Guid(a210e4596a34b764387336c54096ea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c5fcda838824ef909091dca37313d2f6') in 0.0474942 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=216494f6edb58769084c56cd3f0f9ca6 DependenciesID=3a2d637a5ce74e5b1bc4e482793261ca StaticDependenciesID=b0545f93f3aea28ba583987ab31fbc7b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Survivalist/Materials/Pouches1_Skin3.mat
+  importAddress: Guid(c4ebab701bd8b4244a7201e9c2ee70ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials/Pouches1_Skin3.mat using Guid(c4ebab701bd8b4244a7201e9c2ee70ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1dfa3504371c0c5c4081b0c62820dc08') in 0.0654389 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6fdc02f31d97c4030b8a4c647e014069 DependenciesID=5326d193b7565a7a8731196659432d65 StaticDependenciesID=d83cfb14ba551fbb0e4e265e778da753 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Survivalist/Materials/Boots3_Skin1.mat
+  importAddress: Guid(b4968c47c65a7f04d838250af66552f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials/Boots3_Skin1.mat using Guid(b4968c47c65a7f04d838250af66552f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e0e1136bf7ec08be88a63268e7ab3f64') in 0.0373288 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b5193d2daaed382e9db4bfb10d6f2a66 DependenciesID=aa95d957bfb466ebec3a0f2e5bb67d1e StaticDependenciesID=69fd898559c639817e9c01c5890d26f6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Survivalist/Materials/Hands1_Skin1.mat
+  importAddress: Guid(a4f3038e85335ab4eb10f074fda8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials/Hands1_Skin1.mat using Guid(a4f3038e85335ab4eb10f074fda8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f203f0e44786ce36e5a219e69c109b4c') in 0.0651784 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14ca931dd869e1769016ba4d5d379e00 DependenciesID=d562896a7d532c8a74193a70630e3d8b StaticDependenciesID=b7b39989295bb8255789da21efed2ab7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.141722 seconds.
+  path: Assets/Survivalist/Basemesh
+  importAddress: Guid(4c30c361572b4cb45a215d69737339ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Basemesh using Guid(4c30c361572b4cb45a215d69737339ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5bd12dd2a78f5034e53c46aec4190b14') in 0.0011039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7c5b76d2fe2fe9f5cd559fe2fae0bb0 DependenciesID=1bb37836b5cf88120cbccb6d77d85124 StaticDependenciesID=edd71f952b4b14484ed1e2a6004f0289 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026739 seconds.
+  path: Assets/Survivalist/Basemesh/SK_Military_Survivalist.fbx
+  importAddress: Guid(0e55d5c42cc96404f872b45455603f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Basemesh/SK_Military_Survivalist.fbx using Guid(0e55d5c42cc96404f872b45455603f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a77fa5dc01877d9235afda48cf26a059') in 0.5369839 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d29365c2e0b4e999cedf13016c863951 DependenciesID=c1d9d69d688e797fb134c6a11c1bbcb8 StaticDependenciesID=b13127f34f3ac9f1f1d6207690a52d34 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 251
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.621475 seconds.
+  path: Assets/Survivalist/Materials HDRP
+  importAddress: Guid(b215d3e97c3a8d54298e419b65977da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials HDRP using Guid(b215d3e97c3a8d54298e419b65977da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2f4aba988e49918e148ee88b755b7cbd') in 0.0008727 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9850bffe74c203511cc0866021f5a9a2 DependenciesID=3f4f97da4a2bc41906b225eb8e13e0b6 StaticDependenciesID=395b1bdbf601ae5e729e3fd6dfd1a625 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040025 seconds.
+  path: Assets/Survivalist/Materials HDRP/HDRP_Backpack1_Skin1.mat
+  importAddress: Guid(67e01125e3f35d24ea88a4316b057310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials HDRP/HDRP_Backpack1_Skin1.mat using Guid(67e01125e3f35d24ea88a4316b057310) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b539ad8d229422b1a419ce7c83aeace6') in 0.0437281 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=34bc44a51a83b73294eb2d2ba3c01594 DependenciesID=fb781073e8ab5515d7333c7c271d4637 StaticDependenciesID=a8ce763a189ee4d7fa7a99784347c42f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002669 seconds.
+  path: Assets/Survivalist/Materials HDRP/HDRP_Backpack1_Skin2.mat
+  importAddress: Guid(0d9334c000a0e324f8770aaa8ab318b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials HDRP/HDRP_Backpack1_Skin2.mat using Guid(0d9334c000a0e324f8770aaa8ab318b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8d486a48fb6cfa8860aff547c23f9a16') in 0.0455464 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7dd36d220a28c0535570a23e839017b7 DependenciesID=4aa49d41048f060cf06c040199f184fe StaticDependenciesID=7cbd42b1f9e66c5093bc7315e7b59f3f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Survivalist/Materials HDRP/HDRP_Head1.mat
+  importAddress: Guid(fc5116b24a68e04498069328a62df292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials HDRP/HDRP_Head1.mat using Guid(fc5116b24a68e04498069328a62df292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6a7dc3b7e6139fffdd4e08d0e1698fcf') in 0.0292119 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=001b4ff30755d05da9c6b332be0f643b DependenciesID=afbc2404363795c27acfc1ff0b63c8bb StaticDependenciesID=5af8d7d242a5abee9fd5bbe3c28aebcb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Survivalist/Materials HDRP/HDRP_Boots3_Skin3.mat
+  importAddress: Guid(62319ce61a9d7934c95a769fb08211a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials HDRP/HDRP_Boots3_Skin3.mat using Guid(62319ce61a9d7934c95a769fb08211a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '968d0483256bcf186f7595c684ff21df') in 0.0389375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a8c0ae73d9b280faa12c8ec2ed84583 DependenciesID=79aca05d5dfdfefd6ebd9ac4f7db10ce StaticDependenciesID=64284c9215de4e57cfea6a0182d59720 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Survivalist/Materials HDRP/HDRP_Cap1_Skin2.mat
+  importAddress: Guid(76c552f98f0f48f4fa5d280ae5a7978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials HDRP/HDRP_Cap1_Skin2.mat using Guid(76c552f98f0f48f4fa5d280ae5a7978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '813a9f26c8b0cbe9319a7df756114035') in 0.0712635 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0113b2991dcb1fb1a32d48a7f1ea0d9c DependenciesID=e8459d9f17d6351c6741a68bbaecd392 StaticDependenciesID=41f87b5d542c5373688acdd8379b2e7f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Survivalist/Materials HDRP/HDRP_Pants2_Skin1.mat
+  importAddress: Guid(a227dcb883a1ca04691fdbc20e1405ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials HDRP/HDRP_Pants2_Skin1.mat using Guid(a227dcb883a1ca04691fdbc20e1405ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a09618c793dc385638b5dc51f0f3d765') in 0.1121618 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a029f2b40c61ed1a5a98ae71fb73605f DependenciesID=a53d26689d34550ab67a1f4284696707 StaticDependenciesID=bc2e472463c7eba8a2b1c9b62d736703 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Survivalist/Materials HDRP/HDRP_Hands1_Skin1.mat
+  importAddress: Guid(04a534206c13d0f44998d0ba90cd2ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials HDRP/HDRP_Hands1_Skin1.mat using Guid(04a534206c13d0f44998d0ba90cd2ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '66f8746bc4d8a40f0ea9cbd73c7baf5d') in 0.0647421 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=18ca1c0623f12caafa3518961a92d7dc DependenciesID=5fc3bcd9132ff0466f666293cf1f9e16 StaticDependenciesID=afd1c7710172aa73495867b2177db12b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Survivalist/Materials HDRP/HDRP_Gloves1_Skin1.mat
+  importAddress: Guid(a4158358f065f2c42bc1bc8acc850552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials HDRP/HDRP_Gloves1_Skin1.mat using Guid(a4158358f065f2c42bc1bc8acc850552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '87caa6f9720a2fc31ee81b480558520c') in 0.0555822 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eaaca1a6014dc3cb8a72208f9e8fddf6 DependenciesID=87b8eb60c8994dba3b8b8594e93ca333 StaticDependenciesID=3813e8641c7e727e93a0db7654d80b37 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Survivalist/Materials HDRP/HDRP_Boots3_Skin2.mat
+  importAddress: Guid(897f2ddab7338ca4d8853a978e15652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials HDRP/HDRP_Boots3_Skin2.mat using Guid(897f2ddab7338ca4d8853a978e15652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '30bec03311cdfd85513d0ae7d1285df7') in 0.0376644 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=34b290911bc1d0d22bf340e03c39b381 DependenciesID=a556cf35decacfcafc3a90db103e4801 StaticDependenciesID=06d46e4e8f16821a900bf35c64c8e630 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Survivalist/Materials HDRP/HDRP_Vest1_Skin3.mat
+  importAddress: Guid(05d1daf7457ea524783155e9bea3f9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials HDRP/HDRP_Vest1_Skin3.mat using Guid(05d1daf7457ea524783155e9bea3f9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '228c972b8821298a581456d6963a44e2') in 0.0500878 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=544d86d3eac8bcc832383318e15b25c4 DependenciesID=965cac12e4ff7c82ec2adc009b3a363b StaticDependenciesID=fc3097527ddd12e290fa4c66db178564 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Survivalist/Materials HDRP/HDRP_Pants2_Skin2.mat
+  importAddress: Guid(bdd7a5e0734c2254683f2032e8a7c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials HDRP/HDRP_Pants2_Skin2.mat using Guid(bdd7a5e0734c2254683f2032e8a7c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '54dcabbc35fb73b1afd6bf2bb3cbb4ff') in 0.048122 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9977b512dacc8901e6887aac679b508 DependenciesID=5d706a2d3a9128c779365ed9a6f99399 StaticDependenciesID=609c877811d0e330e1505d9f9c611799 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.000120 seconds.
+  path: Assets/Survivalist/Prefab/PlayerArmature.prefab
+  importAddress: Guid(76b9d8179905d454e9bf6dcc847231ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Prefab/PlayerArmature.prefab using Guid(76b9d8179905d454e9bf6dcc847231ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '94b34cc818045c1013cab0de74718809') in 0.380274 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=26e3d1d7c9dc0cfa5fe003113aa6c24c DependenciesID=da407db3a15df5d33733ff6673344b69 StaticDependenciesID=a733abbd6673042d849c30a13d2d415e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 595
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.416200 seconds.
+  path: Assets/Survivalist/Prefab/PlayerArmature.prefab
+  importAddress: Guid(76b9d8179905d454e9bf6dcc847231ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Survivalist/Prefab/PlayerArmature.prefab using Guid(76b9d8179905d454e9bf6dcc847231ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '12fa719202f901af8c247b15f1927167') in 0.2381043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e4d7889e54604b7bfd53964bc0c64f1 DependenciesID=a58f0a258bd410d76adfe78bbd7cb0fa StaticDependenciesID=eedf33e2b570d1c73c2978886d24927b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 359
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.412829 seconds.
+  path: Assets/Survivalist/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat
+  importAddress: Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Survivalist/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat using Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6cfbc2a40d5f948a57dde058a92f183a') in 0.0422477 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7620d5ea5c113131d70d059b332dc677 DependenciesID=b6934ae7542a1a795ba6b3cdf6d44309 StaticDependenciesID=e4050b74e48c8f26c29f47cb17f80821 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Idyllic Fantasy Nature/Demo/Timeline.playable
+  importAddress: Guid(be8f0d77867aca84fa802488049469b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Idyllic Fantasy Nature/Demo/Timeline.playable using Guid(be8f0d77867aca84fa802488049469b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a0da656cdfba43cdbb5927d8bac97ce2') in 0.022664 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8eb870f742e2321062ec28be638eab68 DependenciesID=079f3f9237334fa866a565596d281fdc StaticDependenciesID=875073773f3f36f1da63041a6c6f48c0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Survivalist/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat
+  importAddress: Guid(6b911390c5825014e8377183a7837d3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Survivalist/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat using Guid(6b911390c5825014e8377183a7837d3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '99a4b7939ca2e204678bb4d5e5c0d009') in 0.011875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e7fe6a72351f92c5ba33d33795b75bf1 DependenciesID=d2eef236f08c38cb8850c9a680a1e8f5 StaticDependenciesID=8aec427f09ab8198176f8b745a56d0f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 819.558445 seconds.
+  path: Assets
+  importAddress: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ba3d99d3e6455b7d738cc313a5658c64') in 0.0007904 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7ba422695a8aa3da15a65ed13cf7f8c DependenciesID=aacbd2d46c4ccb757ffc405dc59c5e9b StaticDependenciesID=09d262387b384c67fbae9f36a9075c34 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.350367 seconds.
+  path: Assets/Cutscene.controller
+  importAddress: Guid(20abf7d24c513d845871e09a9591bbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cutscene.controller using Guid(20abf7d24c513d845871e09a9591bbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '238a35791c1c4309513908c76b38dae4') in 0.0020299 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2aa31c7a85ed90d4de6ff44e6fa2d1d6 DependenciesID=7da2a16a438daa0fba9ba3afa60fab9b StaticDependenciesID=eff2ee1dbc9ede03e26db972bb2e434b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.843515 seconds.
+  path: Assets/Cutscene.controller
+  importAddress: Guid(20abf7d24c513d845871e09a9591bbb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cutscene.controller using Guid(20abf7d24c513d845871e09a9591bbb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ee6189f8f1bceae83b3502130989115a') in 0.007143 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2aacf47bcb71f5172e8b72b988affea7 DependenciesID=ead54dd94d4d25db44cda871b080606f StaticDependenciesID=8462ba86b6fd542ed85b8933b72e136f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2663.090041 seconds.
+  path: Assets/Cutscene.controller
+  importAddress: Guid(20abf7d24c513d845871e09a9591bbb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cutscene.controller using Guid(20abf7d24c513d845871e09a9591bbb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5a476b06c0cefe07e153fc8ca6164160') in 0.0082254 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=65fa36c90f65408fae388bfd00a9fd3f DependenciesID=9cecb388fac35601bec49676fbed159d StaticDependenciesID=c4bbc0df5fd263442f135cee7f39ecc8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+

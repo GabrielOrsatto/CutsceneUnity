@@ -1,0 +1,19 @@
+# Pasta gerada automaticamente pelo Unity
+Library/
+
+# Outras pastas que também podem ser ignoradas
+Temp/
+Logs/
+Obj/
+Build/
+Builds/
+
+# Configs locais
+UserSettings/
+
+# VS / Rider
+.vs/
+*.csproj
+*.sln
+*.unityproj
+*.booproj
